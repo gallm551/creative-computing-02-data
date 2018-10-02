@@ -1,91 +1,109 @@
 * {
   box-sizing: border-box;
 }
-
 html {
   margin: 0;
   padding: 0;
 }
-
 body {
   margin: 15px;
   padding: 0px;
-  width: 195vw;
-  height: 65vh;
-  font-size: 50px;
+  width: 200vw;
+  height: 200vh;
+  font-size: 25px;
   font-family: 'Raleway', sans-serif;
-  color: white;
+  color: black;
   overflow: hidden;
   background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAKUlEQVQoU2NkYGBg4Gy7tfl7lZoviI0LMA6gQpD78LkNJjeQbqR68AAAQrImJ8iqdSsAAAAASUVORK5CYII=) repeat;
 }
-
 p {
-  color: black;
   font-size: 25px;
   font-family: 'Chakra Petch', sans-serif;
   font-weight: bolder;
   background-color: transparent;
 }
-
 .content {
-  width: 195vw;
-  height: 65vh;
-  font-size: 50px;
-  color: white;
-}
-
-.box {
-  width: 30vw;
-  height: 90vh;
   font-size: 30px;
+}
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+.box {
   font-family: 'Raleway', sans-serif;
-  color: white;
+  padding: 5px;
+  width: 20vw;
+  height: 80vh;
+  color: deeppink;
   display: inline-block;
   vertical-align: top;
   position: relative;
 }
-
 .box-1 {
-  background-color: red;
-  background-image: url('../images/transparent-stuff-aesthetic-1.png'); 
-}
+  background-color: transparent;
+  background-image: url('../images/insta-icon2.png');
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: 100px;
 
+
+}
 .box-2 {
   background-color: transparent;
 }
-
 .box-3 {
   background-color: transparent;
 }
-
+.box-4 {
+  background-color: transparent;
+}
 .row {
-  font-size: 36px;
+  padding: 10px;
+  font-size: 20px;
+  width: 100%;
   height: 50%;
   background-color: transparent;
 }
-
 .row-1 {
   width: 100%;
   height: 50%;
   background-color: transparent;
 }
-
 .row-2 {
-  background-color: orange;
+  width: 100%;
+  height: 50%;
+  background-color: red;
 }
-
 .row-3 {
+  width: 100%;
+  height: 50%;
   background-color: yellow;
 }
-
 .row-4 {
+  width: 100%;
+  height: 50%;
   background-color: green;
 }
-
 .row-5 {
+  width: 100%;
+  height: 50%;
   background-color: slateblue;
 }
-
 .row-6 {
+  width: 100%;
+  height: 50%;
   background-color: purple;
 }
+.row-7 {
+  width: 100%;
+  height: 50%;
+  background-color: purple;
+}
+.row-8 {
+  width: 100%;
+  height: 50%;
+  background-color: purple;
+}
+.
