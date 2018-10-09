@@ -10,81 +10,95 @@ body {
   background: rgb(198,148,231);
   background: linear-gradient(114deg, rgba(198,148,231,1) 0%, rgba(223,129,129,1) 50%, rgba(246,216,174,1) 100%);
   color: black;
-  font-size: 25px;
   font-family: 'Raleway', sans-serif;
-  height: 210vh;
-  margin: 10px;
-  overflow: hidden;
-  width: 100vw;
-}
-p {
-  background-color: transparent;
   font-size: 25px;
-  font-family: 'Chakra Petch', sans-serif;
-  font-weight: bolder;
-}
-.center {
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  transform: translate(-50%,-50%);
+  height: 130vh;
+  margin: 10px;
+  overflow: scroll;
 }
 .content {
-  font-size: 30px;
-  margin-right: 5px;
+  font-family: 'Raleway', sans-serif;
+}
+h1 {
+  font-family: 'Chakra Petch', sans-serif;
+  font-weight: bold;
+  font-size: 35px;
+  line-height: 37px;
+  padding-left: 10px;
 }
 .box {
-  font-family: 'Raleway', sans-serif;
-  line-height: 32px;
-  width: 23vw;
-  height: 70vh;
-  display: inline-block;
-  vertical-align: top;
-  position: relative;
   background-color: transparent;
+  display: inline-block;
+  margin-bottom: 5px;
+  position: relative;
+  vertical-align: top;
+  width: 20vw; 
+}
+.box-0 {
+  background-color: rgba(255, 255, 255, 0.65);
+  padding: 20px;
+  width: 100vw;
+  margin-bottom: 10px;
+  display: block;
+  position: relative;
+  text-decoration: none;
 }
 .row {
-  padding: 10px;
+  padding: 5px;
   font-size: 20px;
-  width: 25vw;
-  height: 35vh;
-  background-repeat: no-repeat;
-  background-position: center top;
-  background-size: 100px;
+  margin-bottom: 5px;
 } 
 .row-1{
   background-color: lavenderblush;
   color: hotpink;
 }
-.row-2{
-  background-color: lavenderblush;
-  color: hotpink;
+.row-6{
+  background-color: oldlace;
+  color: burlywood;
 }
 .row-3{
   background-color: lavender;
   color: plum;
 }
 .row-4{
-  background-color: lavender;
-  color: plum;
+  background-color: lightcyan;
+  color: skyblue;
 }
 .row-5{
   background-color: #FADFFF;
   color: violet;
 }
-.row-6{
-  background-color: #FADFFF;
-  color: violet;
+.row-2{
+  background-color: papayawhip;
+  color: sandybrown;
 }
 .row-7{
   background-color: #FFDFE5;
   color: palevioletred;
 }
-.row-8{
-  background-color: #FFDFE5;
-  color: palevioletred;
-  text-align: center;
-}
 .images{
   margin-top: 10px;
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 600px) {
+  .box { 
+    width: 100vw;
+    display: block;
+    margin-top: -5px;
+  }
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .box {
+  }
+}
+/* Large devices (laptops/desktops, 1025px and up) */
+@media only screen and (min-width: 1025px) {
+  .box {
+  }
+}
+/* Extra large devices (large laptops and desktops, 1400px and up) */
+@media only screen and (min-width: 1400px) {
+  .box {
+  }
 }
