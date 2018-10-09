@@ -43,7 +43,7 @@ p {
   background-color: transparent;
 }
 .row {
-  padding-right: 25px;
+  padding: 5px;
   font-size: 20px;
   width: 100%;
   height: 40%;
