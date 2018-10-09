@@ -6,8 +6,8 @@ html {
   padding: 0;
 }
 body {
-  background: linear-gradient(90deg, rgba(255,186,216,1) 0%, rgba(199,200,255,1) 100%);
-  background: rgb(255,186,216);
+  background: rgb(198,148,231);
+  background: linear-gradient(114deg, rgba(198,148,231,1) 0%, rgba(223,129,129,1) 50%, rgba(246,216,174,1) 100%);
   color: black;
   font-size: 25px;
   font-family: 'Raleway', sans-serif;
